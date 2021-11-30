@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register
+    </title>
+    <table width='40%'>
+        <tr>
+            <b>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="services.html">Services</a></td>
+            <td><a href="about.html">About Us</a></td>
+            <td><a href="REGISTER.html">Register</a></td>
+            </b>
+        </tr>
+    </table>
+        <h1 style="text-align: center;"> <b>Nelson's Pizza Delivery</b></h1>
+        <h2 style="text-align: center;"><b>Online Order Form</b></h2>
+
+        
+</head>
+<body style="background-color: yellow;">
+<script>
+      let d = new Date();
+      document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+  </script>
+<form>
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+<label for="Address">Address: </label>
+<input type = "text" id="Address" name = "Address"><br><br>
+<label for="City">City: </label>
+<input type = "text" id="City" name = "City"><br><br>
+<label for="Postcode">Postcode: </label>
+<input type = "text" id="Postcode" name = "Postcode"><br><br>
+  
+
+
+<input type="submit" value="Submit Order">
+</form>
+<button onclick="myFunction()">Am done
+</button>
+
+<p id="Submit"></p>
+
+<script>
+function myFunction()  {
+    document.getElementById("Submit").innerHTML =
+    "Thank you for shopping with us";
+  
+}
+</script>
+
+    
+<p><a href="index.html">Click here to go to homepage!</a></p>
+
+</body>
+</html>
